@@ -26,6 +26,9 @@ main {
         &__content {
             margin: 16px 0;
             line-height: 1.625;
+            &.bold {
+                font-weight: 600;
+            }
         }
     }
 
