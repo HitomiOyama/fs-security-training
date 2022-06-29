@@ -19,6 +19,11 @@
   dependencies:
     "@edge-runtime/primitives" "^1.0.1"
 
+"@libphp/amazon-linux-2-v81@latest":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@libphp/amazon-linux-2-v81/-/amazon-linux-2-v81-0.0.1.tgz#57270261d9da2d0abf162c4732465a2623b5bc8a"
+  integrity sha512-cR7w79FZr91x1ur0eR5DWX+Wb1hDuYdxzka6vIzUMMmsuW1NBaEpwDQu4icJizNVS26NwpUtDTJGIoEomBiYxA==
+
 "@mapbox/node-pre-gyp@^1.0.5":
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/@mapbox/node-pre-gyp/-/node-pre-gyp-1.0.9.tgz#09a8781a3a036151cdebbe8719d6f8b25d4058bc"
@@ -1920,6 +1925,13 @@ util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
+
+vercel-php@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/vercel-php/-/vercel-php-0.5.1.tgz#42b385a79a03f0f413094cca7c98385cbdd420f2"
+  integrity sha512-iuWdBz+fBLIBQgLhvqz7oMYK4CCpe+nRd9pmWxIrtrW+8DrZfq6O625IK0DsQeepy6JbCZp8n5+ZaOqMYfBZFg==
+  dependencies:
+    "@libphp/amazon-linux-2-v81" latest
 
 vercel@^25.2.1:
   version "25.2.1"
